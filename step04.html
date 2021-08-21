@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge, Chrome=1" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+        <link
+            rel="stylesheet"
+            href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"
+        />
+        <link rel="stylesheet" href="./dist/css/comm.css" />
+        <title>사전청약</title>
+    </head>
+
+    <body>
+        <div class="wrap wrap-ending">
+            <h1 class="logo">
+                <img src="./images/logo-w.png" alt="사전청약 희망의 첫걸음" />
+            </h1>
+            <div class="main_wrap_in">
+                <div class="cen">
+                    <h2 class="tit1">
+                        2층 접수처로 <br />
+                        이동하여 주시기 바랍니다.
+                    </h2>
+                    <p class="txt">
+                        신속한 접수를 위하여 당첨자가 직접 서류구비 여부를 확인토록 하고 있으며, <br />
+                        최종 서류접수시 검토결과에 따라 추가 서류제출 안내가 있을 수 있습니다.
+                    </p>
+
+                    <button type="button" class="btn btn-yellow-r" data-toggle="modal" data-target="#submission">제출하기</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal-공공분양 서류 없을 시 -->
+        <!-- show 추가시 활성화 -->
+        <div class="modal" id="submission">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <!-- Modal body -->
+                    <div class="modal-body">서류 제출이 완료되었습니다.</div>
+
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-main" data-dismiss="modal" onclick="location.href='index.html'">
+                            메인으로 이동
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script src="./dist/js/comm.js"></script>
+    </body>
+</html>

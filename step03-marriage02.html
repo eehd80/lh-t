@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge, Chrome=1" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+        <link
+            rel="stylesheet"
+            href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"
+        />
+        <link rel="stylesheet" href="./dist/css/comm.css" />
+        <title>당첨자 정보 입력 | 사전청약</title>
+    </head>
+
+    <body>
+        <div class="wrap wrap-purple h-scroll">
+            <h1 class="logo">
+                <img src="./images/logo.png" alt="사전청약 희망의 첫걸음" />
+            </h1>
+
+            <div class="right_wrap">
+                <div class="write_from">
+                    <div class="q_tit">
+                        <h2 class="tit"><b>신혼희망타운</b> 추가서류1</h2>
+                    </div>
+                    <form action="" method="get">
+                        <table class="table table-bordered">
+                            <colgroup>
+                                <col />
+                                <col style="width: 9%" />
+                                <col style="width: 14%" />
+                                <col style="width: 16%" />
+                                <col style="width: 9%" />
+                                <col style="width: 9%" />
+                            </colgroup>
+                            <thead>
+                                <tr>
+                                    <th rowspan="2" scope="col" class="bdr1">제출대상</th>
+                                    <th rowspan="2" scope="col">해당여부</th>
+                                    <th rowspan="2" scope="col">발급 기준</th>
+                                    <th rowspan="2" scope="col">제출서류</th>
+                                    <th rowspan="2" scope="col">예</th>
+                                    <th colspan="2" scope="col" class="bdr4">아니오</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="fst">
+                                    <th scope="row" class="txt-left">신혼부부로 청약한 경우</th>
+                                    <td>
+                                        <input type="checkbox" id="chk1" />
+                                        <label for="chk1">해당여부</label>
+                                    </td>
+                                    <td>본인</td>
+                                    <td>가족관계증명서</td>
+                                    <td>
+                                        <input type="radio" id="radi1Y" name="regi1" value="" disabled />
+                                        <label for="radi1Y">예</label>
+                                    </td>
+                                    <td>
+                                        <input type="radio" id="radi1N" name="regi1" value="" disabled />
+                                        <label for="radi1N">아니오</label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row" rowspan="2" class="txt-left">
+                                        배우자가 있으나 배우자가 ‘당첨자’와 <br />
+                                        동일 등본에 등재되지 않은 경우
+                                    </th>
+                                    <td rowspan="2">
+                                        <input type="checkbox" id="chk2" />
+                                        <label for="chk2">해당여부</label>
+                                    </td>
+                                    <td>본인</td>
+                                    <td>가족관계증명서</td>
+                                    <td>
+                                        <input type="radio" id="radi2Y" name="regi2" value="" />
+                                        <label for="radi2Y">예</label>
+                                    </td>
+                                    <td>
+                                        <input type="radio" id="radi2N" name="regi2" value="" />
+                                        <label for="radi2N">아니오</label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>배우자</td>
+                                    <td>주민등록표등본</td>
+                                    <td>
+                                        <input type="radio" id="radi3Y" name="regi3" value="" />
+                                        <label for="radi3Y">예</label>
+                                    </td>
+                                    <td>
+                                        <input type="radio" id="radi3N" name="regi3" value="" />
+                                        <label for="radi3N">아니오</label>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </form>
+                </div>
+
+                <div class="btm_btns">
+                    <button class="kaki" onclick="location.href='step03-marriage.html'"><span>뒤로</span></button>
+                    <button class="purple" onclick="location.href='step04.html'"><span>다음</span></button>
+                </div>
+            </div>
+            <!-- // right_wrap -->
+        </div>
+
+        <!-- Modal-공공분양 서류 없을 시 -->
+        <!-- show 추가시 활성화 -->
+        <div class="modal" id="lackDocument">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <!-- Modal body -->
+                    <div class="modal-body">필요서류를 모두 준비 후 방문해 주세요</div>
+
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-close" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script src="./dist/js/comm.js"></script>
+    </body>
+</html>
