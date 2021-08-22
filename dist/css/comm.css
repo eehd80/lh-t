@@ -371,20 +371,7 @@ legend {
   text-align: center;
   color: #fff;
   opacity: 0.6;
-  margin-top: 5px;
-}
-
-.main_wrap_in .foot_txt {
-  position: absolute;
-  bottom: 1.5%;
-  font-size: 15px;
-  line-height: 23px;
-  text-align: center;
-  color: #868686;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
-  white-space: nowrap;
+  margin-top: 15px;
 }
 
 .main_wrap_in .cen button {
@@ -400,7 +387,7 @@ legend {
   color: #fff;
   border-radius: 50px;
   margin: 0 auto;
-  margin-top: 28px;
+  margin-top: 35px;
   border: none;
   font-weight: bold;
 }
@@ -410,6 +397,19 @@ legend {
   background-color: #ffc627;
   color: #062f0f;
   font-weight: 500;
+}
+
+.main_wrap_in .foot_txt {
+  position: absolute;
+  bottom: 1.5%;
+  font-size: 15px;
+  line-height: 23px;
+  text-align: center;
+  color: #868686;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  white-space: nowrap;
 }
 
 .link- .ovh {
@@ -1255,6 +1255,7 @@ input[type="checkbox"]:checked + label {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  height: 153px;
   padding: 40px 0 30px;
   border-top: none;
 }

@@ -86,7 +86,29 @@
             text-align: center;
             color: $w;
             opacity: 0.6;
-            margin-top: 5px;
+            margin-top: 15px;
+        }
+        button {
+            width: 286px;
+            height: 75px;
+            padding: 0;
+            box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.38);
+            background-color: #39a77a;
+            font-size: 26px;
+            letter-spacing: -1.3px;
+            text-align: center;
+            color: $w;
+            border-radius: 50px;
+            margin: 0 auto;
+            margin-top: 35px;
+            border: none;
+            font-weight: bold;
+            &.btn-yellow-r {
+                margin-top: 35px;
+                background-color: #ffc627;
+                color: #062f0f;
+                font-weight: 500;
+            }
         }
     }
 
@@ -100,29 +122,6 @@
         left: 50%;
         transform: translateX(-50%);
         white-space: nowrap;
-    }
-
-    .cen button {
-        width: 286px;
-        height: 75px;
-        padding: 0;
-        box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.38);
-        background-color: #39a77a;
-        font-size: 26px;
-        letter-spacing: -1.3px;
-        text-align: center;
-        color: $w;
-        border-radius: 50px;
-        margin: 0 auto;
-        margin-top: 28px;
-        border: none;
-        font-weight: bold;
-        &.btn-yellow-r {
-            margin-top: 35px;
-            background-color: #ffc627;
-            color: #062f0f;
-            font-weight: 500;
-        }
     }
 }
 
@@ -877,6 +876,7 @@ input[type="checkbox"] {
     }
     .modal-footer {
         justify-content: center;
+        height: 153px;
         padding: 40px 0 30px;
         border-top: none;
     }
