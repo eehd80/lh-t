@@ -1,3 +1,3 @@
 $(function () {
-    $('.selectpicker').selectpicker();
+    // $('.selectpicker').selectpicker();
 });
