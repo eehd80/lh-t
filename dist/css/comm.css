@@ -997,6 +997,20 @@ input[type="checkbox"]:checked + label {
   background: #000 url(../../images/step2-bg.png) no-repeat 50%/cover;
 }
 
+.bg-buil.wrap-green .main_wrap_in .cen {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding-top: 80px;
+}
+
+.bg-buil .main_wrap_in .cen {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding-top: 150px;
+}
+
 .wrap-green .tit {
   font-size: 25px;
 }

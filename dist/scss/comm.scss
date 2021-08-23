@@ -665,6 +665,16 @@ input[type="checkbox"] {
 
 .bg-buil {
     background: $b url(../../images/step2-bg.png) no-repeat 50% / cover;
+    &.wrap-green {
+        .main_wrap_in .cen {
+            justify-content: flex-start;
+            padding-top: 80px;
+        }
+    }
+    .main_wrap_in .cen {
+        justify-content: flex-start;
+        padding-top: 150px;
+    }
 }
 
 .wrap-green {
