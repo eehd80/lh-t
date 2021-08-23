@@ -21,15 +21,15 @@
             <div class="main_wrap_in">
                 <div class="cen">
                     <h2 class="tit1">
-                        2층 접수처로 <br />
-                        이동하여 주시기 바랍니다.
+                        <!-- 2층 접수처로 <br />
+                        이동하여 주시기 바랍니다. -->
                     </h2>
-                    <p class="txt">
-                        신속한 접수를 위하여 당첨자가 직접 서류구비 여부를 확인토록 하고 있으며, <br />
-                        최종 서류접수시 검토결과에 따라 추가 서류제출 안내가 있을 수 있습니다.
-                    </p>
 
-                    <button type="button" class="btn btn-yellow-r" data-toggle="modal" data-target="#submission">제출하기</button>
+                    <div class="d-flex">
+                        <button type="button" class="btn btn-green-r" onclick="location.href='step02.html'">뒤로</button>
+                        <button type="button" class="btn btn-yellow-r" data-toggle="modal" data-target="#submission">제출하기</button>
+                    </div>
+                    <p class="txt">접수 시 사전체크한 서류 외 추가서류 제출이 필요할 수 있습니다.</p>
                 </div>
             </div>
         </div>
@@ -40,7 +40,10 @@
             <div class="modal-dialog">
                 <div class="modal-content">
                     <!-- Modal body -->
-                    <div class="modal-body">서류 제출이 완료되었습니다.</div>
+                    <div class="modal-body">
+                        사전체크가 완료되었습니다. <br />
+                        2층 접수처로 이동하여 주시기 바랍니다.
+                    </div>
 
                     <!-- Modal footer -->
                     <div class="modal-footer">

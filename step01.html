@@ -34,7 +34,30 @@
                                             <label for="numRegister" class="label-">접수번호 <em class="ess">필수사항</em></label>
                                         </h3>
                                         <div class="inp-regi">
-                                            <input id="numRegister" type="number" placeholder="접수 번호를 입력해 주세요." class="inp-" />
+                                            <input
+                                                id="numRegister"
+                                                type="number"
+                                                placeholder="접수 번호를 입력해 주세요."
+                                                required
+                                                class="inp-"
+                                            />
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <h3 class="tit-regi">
+                                            <label for="numRegister" class="label-">이름 및 생년월일 <em class="ess">필수사항</em></label>
+                                        </h3>
+                                        <div class="inp-regi d-flex">
+                                            <input id="numRegister" type="text" placeholder="홍길동" required class="inp- mr-4" />
+                                            <input
+                                                id="numRegister"
+                                                type="number"
+                                                placeholder="생년월일 숫자 6자리"
+                                                required
+                                                maxlength="4"
+                                                size="4"
+                                                class="inp-"
+                                            />
                                         </div>
                                     </li>
                                     <li>
@@ -52,13 +75,14 @@
                                                 </select> -->
 
                                             <select name="" id="prizeRegister">
-                                                <option selected disabled hidden>지구선택 (하나만 선택 가능합니다)</option>
+                                                <option selected hidden>지구선택 (하나만 선택 가능합니다)</option>
                                                 <option value="과천주암">과천주암</option>
                                                 <option value="군포대야미">군포대야미</option>
                                                 <option value="성남낙생">성남낙생</option>
                                                 <option value="성남신촌">성남신촌</option>
                                                 <option value="수원당수">수원당수</option>
                                                 <option value="안산장상">안산장상</option>
+                                                <option value="안산장상">안산신길</option>
                                             </select>
                                             <input
                                                 id="numRegister2"

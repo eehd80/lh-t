@@ -281,7 +281,6 @@ legend {
 
 .wrap.h-scroll {
   height: auto;
-  padding-bottom: 120px;
 }
 
 .wrap .logo {
@@ -393,9 +392,16 @@ legend {
 }
 
 .main_wrap_in .cen button.btn-yellow-r {
-  margin-top: 35px;
+  margin: 35px 10px;
   background-color: #ffc627;
   color: #062f0f;
+  font-weight: 500;
+}
+
+.main_wrap_in .cen button.btn-green-r {
+  margin: 35px 10px;
+  background-color: #144632;
+  color: #fff;
   font-weight: 500;
 }
 
@@ -539,7 +545,7 @@ select option {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 18%;
+  width: 20%;
   padding-top: 17px;
   font-size: 20px;
   font-weight: 500;
@@ -551,6 +557,7 @@ select option {
 
 .lst-regi .tit-regi .ess {
   display: block;
+  margin-top: 2px;
   font-size: 15px;
   font-weight: 300;
   color: #9f9f9f;
@@ -593,6 +600,10 @@ select option {
 
 .lst-regi .inp-::placeholder {
   color: #969696;
+}
+
+.write_from {
+  padding-bottom: 120px;
 }
 
 .write_from > .q_tit {
@@ -1032,15 +1043,18 @@ input[type="checkbox"]:checked + label {
 .wrap-ending .main_wrap_in .tit1::before {
   content: "";
   display: block;
-  width: 260px;
-  height: 230px;
-  margin: 0 auto 15px;
+  width: 450px;
+  height: 400px;
+  margin: 0 auto;
   background: url(../../images/step4-img.png) no-repeat 0 0/contain;
 }
 
 .wrap-ending .main_wrap_in .txt {
-  margin-top: 25px;
-  font-size: 19px;
+  font-size: 20px;
+}
+
+.wrap-ending .main_wrap_in .cen button {
+  margin: 35px 10px 10px;
 }
 
 .step3-img {
@@ -1090,7 +1104,7 @@ input[type="checkbox"]:checked + label {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .lst-sel-col2 li {
@@ -1248,6 +1262,7 @@ input[type="checkbox"]:checked + label {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
+  text-align: center;
   font-size: 25px;
 }
 
@@ -1255,8 +1270,8 @@ input[type="checkbox"]:checked + label {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  height: 153px;
-  padding: 40px 0 30px;
+  height: 130px;
+  padding-top: 10px;
   border-top: none;
 }
 

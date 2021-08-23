@@ -13,7 +13,7 @@
 
     &.h-scroll {
         height: auto;
-        padding-bottom: 120px;
+        // padding-bottom: 80px;
     }
 
     .logo {
@@ -53,6 +53,7 @@
         justify-content: center;
         align-items: center;
         height: 100%;
+        // padding-top: 80px;
 
         .tit1 {
             color: $w;
@@ -104,9 +105,15 @@
             border: none;
             font-weight: bold;
             &.btn-yellow-r {
-                margin-top: 35px;
+                margin: 35px 10px;
                 background-color: #ffc627;
                 color: #062f0f;
+                font-weight: 500;
+            }
+            &.btn-green-r {
+                margin: 35px 10px;
+                background-color: #144632;
+                color: $w;
                 font-weight: 500;
             }
         }
@@ -226,7 +233,7 @@ select {
     }
     .tit-regi {
         display: flex;
-        width: 18%;
+        width: 20%;
         padding-top: 17px;
         font-size: 20px;
         font-weight: 500;
@@ -236,6 +243,7 @@ select {
         .ess {
             // position: absolute; bottom: -6px; left: 0;
             display: block;
+            margin-top: 2px;
             font-size: 15px;
             font-weight: 300;
             color: #9f9f9f;
@@ -265,8 +273,11 @@ select {
     }
 }
 
-.write_from > .q_tit {
-    margin-top: 34px;
+.write_from {
+    padding-bottom: 120px;
+    > .q_tit {
+        margin-top: 34px;
+    }
 }
 
 .q_tit {
@@ -695,15 +706,20 @@ input[type="checkbox"] {
             &::before {
                 content: "";
                 display: block;
-                width: 260px;
-                height: 230px;
-                margin: 0 auto 15px;
+                width: 450px;
+                height: 400px;
+                margin: 0 auto;
                 background: url(../../images/step4-img.png) no-repeat 0 0 / contain;
             }
         }
         .txt {
-            margin-top: 25px;
-            font-size: 19px;
+            // margin-top: 5px;
+            font-size: 20px;
+        }
+        .cen {
+            button {
+                margin: 35px 10px 10px;
+            }
         }
     }
 }
@@ -742,7 +758,7 @@ input[type="checkbox"] {
 
 .lst-sel-col2 {
     display: flex;
-    margin-top: 20px;
+    margin-top: 10px;
     li {
         padding: 0 30px;
     }
@@ -872,12 +888,13 @@ input[type="checkbox"] {
         justify-content: center;
         align-items: flex-end;
         // padding-bottom: 70px;
+        text-align: center;
         font-size: 25px;
     }
     .modal-footer {
         justify-content: center;
-        height: 153px;
-        padding: 40px 0 30px;
+        height: 130px;
+        padding-top: 10px;
         border-top: none;
     }
     .btn-close {
