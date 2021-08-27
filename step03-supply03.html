@@ -14,9 +14,11 @@
     </head>
 
     <body>
-        <div class="wrap wrap-green h-scroll">
+        <div class="wrap wrap-green">
             <h1 class="logo">
-                <img src="./images/logo.png" alt="사전청약 희망의 첫걸음" />
+                <a href="index.html">
+                    <img src="./images/logo.png" alt="사전청약 희망의 첫걸음" />
+                </a>
             </h1>
 
             <div class="right_wrap">
@@ -145,117 +147,6 @@
                                         <label for="radi5N">아니오</label>
                                     </td>
                                 </tr>
-                                <tr>
-                                    <th scope="row" class="txt-left">입양한 자녀가 있는 경우</th>
-                                    <td>
-                                        <input type="checkbox" id="chk6" />
-                                        <label for="chk6">해당여부</label>
-                                    </td>
-                                    <td>본인</td>
-                                    <td>입양관계증명서 <br />또는 친양자 <br />입양관계 증명서</td>
-                                    <td>
-                                        <input type="radio" id="radi6Y" name="regi6" value="" />
-                                        <label for="radi6Y">예</label>
-                                    </td>
-                                    <td>
-                                        <input type="radio" id="radi6N" name="regi6" value="" />
-                                        <label for="radi6N">아니오</label>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <th scope="row" class="txt-left">
-                                        3세대 이상 세대구성 배점을 인정받고자 하나, <br />
-                                        등본상 당첨자와 직계존속이 공고일 현재로부터 과거 3년 이상 계속하여 동일한 등본 등재여부가 확인되지
-                                        않는 경우
-                                    </th>
-                                    <td>
-                                        <input type="checkbox" id="chk7" />
-                                        <label for="chk7">해당여부</label>
-                                    </td>
-                                    <td>피부양 <br />직계존속</td>
-                                    <td>주민등록표초본</td>
-                                    <td>
-                                        <input type="radio" id="radi7Y" name="regi7" value="" />
-                                        <label for="radi7Y">예</label>
-                                    </td>
-                                    <td>
-                                        <input type="radio" id="radi7N" name="regi7" value="" />
-                                        <label for="radi7N">아니오</label>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <th scope="row" class="txt-left">한부모가족으로 세대구성 배점을 인정받고자 하는 경우</th>
-                                    <td>
-                                        <input type="checkbox" id="chk8" />
-                                        <label for="chk8">해당여부</label>
-                                    </td>
-                                    <td>본인</td>
-                                    <td>한부모<br />가족증명서</td>
-                                    <td>
-                                        <input type="radio" id="radi8Y" name="regi8" value="" />
-                                        <label for="radi8Y">예</label>
-                                    </td>
-                                    <td>
-                                        <input type="radio" id="radi8N" name="regi8" value="" />
-                                        <label for="radi8N">아니오</label>
-                                    </td>
-                                </tr>
-
-                                <tr>
-                                    <th scope="row" rowspan="2" class="txt-left">
-                                        당첨자 또는 세대원이 공고일 이후 <br />
-                                        ‘공고일 현재 세대주’와  등본이 분리된 경우
-                                    </th>
-                                    <td rowspan="2">
-                                        <input type="checkbox" id="chk9" />
-                                        <label for="chk9">해당여부</label>
-                                    </td>
-                                    <td rowspan="2">
-                                        (공고일 당시) <br />
-                                        세대주 및 <br />
-                                        세대구성원
-                                    </td>
-                                    <td>주민등록표등본</td>
-                                    <td>
-                                        <input type="radio" id="radi9Y" name="regi9" value="" />
-                                        <label for="radi9Y">예</label>
-                                    </td>
-                                    <td>
-                                        <input type="radio" id="radi9N" name="regi9" value="" />
-                                        <label for="radi9N">아니오</label>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>주민등록표초본</td>
-                                    <td>
-                                        <input type="radio" id="radi10Y" name="regi10" value="" />
-                                        <label for="radi10Y">예</label>
-                                    </td>
-                                    <td>
-                                        <input type="radio" id="radi10N" name="regi10" value="" />
-                                        <label for="radi10N">아니오</label>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <th scope="row" class="txt-left">
-                                        25년이상 장기복무 군인 또는 10년이상 <br />
-                                        장기복무 군인자격으로 신청한 경우
-                                    </th>
-                                    <td>
-                                        <input type="checkbox" id="chk11" />
-                                        <label for="chk11">해당여부</label>
-                                    </td>
-                                    <td>본인</td>
-                                    <td>재직증명서</td>
-                                    <td>
-                                        <input type="radio" id="radi11Y" name="regi11" value="" />
-                                        <label for="radi11Y">예</label>
-                                    </td>
-                                    <td>
-                                        <input type="radio" id="radi11N" name="regi11" value="" />
-                                        <label for="radi11N">아니오</label>
-                                    </td>
-                                </tr>
                             </tbody>
                         </table>
                     </form>
@@ -263,7 +154,7 @@
 
                 <div class="btm_btns">
                     <button class="kaki" onclick="location.href='step03-public02.html'"><span>뒤로</span></button>
-                    <button class="green" onclick="location.href='step04.html'"><span>다음</span></button>
+                    <button class="green" onclick="location.href='step03-supply03-2.html'"><span>다음</span></button>
                 </div>
             </div>
             <!-- // right_wrap -->

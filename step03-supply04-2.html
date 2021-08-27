@@ -24,7 +24,7 @@
             <div class="right_wrap">
                 <div class="write_from">
                     <div class="q_tit">
-                        <h2 class="tit"><b>생애최초 특별공급</b> 추가서류</h2>
+                        <h2 class="tit"><b>노부모부양 특별공급</b> 추가서류</h2>
                     </div>
                     <form action="" method="get">
                         <table class="table table-bordered">
@@ -48,97 +48,103 @@
                             </thead>
                             <tbody>
                                 <tr class="fst">
-                                    <th scope="row" class="txt-left">배우자가 없는 경우</th>
+                                    <th scope="row" class="txt-left">
+                                        당첨자의 등본상 피부양 직계존속과의 관계가 <br />
+                                        확인되지 않는 경우
+                                    </th>
                                     <td>
-                                        <input type="checkbox" id="chk1" />
-                                        <label for="chk1">해당여부</label>
+                                        <input type="checkbox" id="chk6" />
+                                        <label for="chk6">해당여부</label>
                                     </td>
-                                    <td>본인</td>
+                                    <td>
+                                        피부양<br />
+                                        직계존속
+                                    </td>
                                     <td>가족관계증명서</td>
                                     <td>
-                                        <input type="radio" id="radi1Y" name="regi1" value="" />
-                                        <label for="radi1Y">예</label>
+                                        <input type="radio" id="radi6Y" name="regi6" value="" />
+                                        <label for="radi6Y">예</label>
                                     </td>
                                     <td>
-                                        <input type="radio" id="radi1N" name="regi1" value="" />
-                                        <label for="radi1N">아니오</label>
+                                        <input type="radio" id="radi6N" name="regi6" value="" />
+                                        <label for="radi6N">아니오</label>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <th scope="row" class="txt-left">
+                                        피부양 직계존속이 배우자가 없거나 <br />
+                                        등본상 배우자와 분리된 경우
+                                    </th>
+                                    <td>
+                                        <input type="checkbox" id="chk7" />
+                                        <label for="chk7">해당여부</label>
+                                    </td>
+                                    <td>피부양 <br />직계존속</td>
+                                    <td>가족관계증명서</td>
+                                    <td>
+                                        <input type="radio" id="radi7Y" name="regi7" value="" />
+                                        <label for="radi7Y">예</label>
+                                    </td>
+                                    <td>
+                                        <input type="radio" id="radi7N" name="regi7" value="" />
+                                        <label for="radi7N">아니오</label>
                                     </td>
                                 </tr>
 
                                 <tr>
                                     <th scope="row" rowspan="2" class="txt-left">
-                                        배우자가 있으나 배우자가 ‘당첨자’와 <br />
-                                        동일 등본에 등재되지 않은 경우
+                                        당첨자 또는 세대원이 공고일 이후 <br />
+                                        ‘공고일 현재 세대주’와  등본이 분리된 경우
                                     </th>
                                     <td rowspan="2">
-                                        <input type="checkbox" id="chk2" />
-                                        <label for="chk2">해당여부</label>
+                                        <input type="checkbox" id="chk8" />
+                                        <label for="chk8">해당여부</label>
                                     </td>
-                                    <td>본인</td>
-                                    <td>가족관계증명서</td>
-                                    <td>
-                                        <input type="radio" id="radi2Y" name="regi2" value="" />
-                                        <label for="radi2Y">예</label>
+                                    <td rowspan="2">
+                                        (공고일 당시) <br />
+                                        세대주 및 <br />
+                                        세대구성원
                                     </td>
-                                    <td>
-                                        <input type="radio" id="radi2N" name="regi2" value="" />
-                                        <label for="radi2N">아니오</label>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>배우자</td>
                                     <td>주민등록표등본</td>
                                     <td>
-                                        <input type="radio" id="radi3Y" name="regi3" value="" />
-                                        <label for="radi3Y">예</label>
+                                        <input type="radio" id="radi8Y" name="regi8" value="" />
+                                        <label for="radi8Y">예</label>
                                     </td>
                                     <td>
-                                        <input type="radio" id="radi3N" name="regi3" value="" />
-                                        <label for="radi3N">아니오</label>
+                                        <input type="radio" id="radi8N" name="regi8" value="" />
+                                        <label for="radi8N">아니오</label>
                                     </td>
                                 </tr>
-
                                 <tr>
-                                    <th scope="row" class="txt-left">
-                                        당첨자와 1년 이상 동일 등본에 등재된 <br />
-                                        직계존속을 소득산정 시 가구원수로 <br />
-                                        인정받고자 하는 경우
-                                    </th>
-                                    <td>
-                                        <input type="checkbox" id="chk4" />
-                                        <label for="chk4">해당여부</label>
-                                    </td>
-                                    <td>직계존속</td>
                                     <td>주민등록표초본</td>
                                     <td>
-                                        <input type="radio" id="radi4Y" name="regi4" value="" />
-                                        <label for="radi4Y">예</label>
+                                        <input type="radio" id="radi9Y" name="regi9" value="" />
+                                        <label for="radi9Y">예</label>
                                     </td>
                                     <td>
-                                        <input type="radio" id="radi4N" name="regi4" value="" />
-                                        <label for="radi4N">아니오</label>
+                                        <input type="radio" id="radi9N" name="regi9" value="" />
+                                        <label for="radi9N">아니오</label>
                                     </td>
                                 </tr>
-
                                 <tr>
                                     <th scope="row" class="txt-left">
-                                        공고일 현재 혼인 중이 아닌 분이 동일 등본상<br />
-                                        만 18세 이상인 자녀를 ‘미혼인 자녀'로<br />
-                                        인정받고자 할 경우
+                                        25년이상 장기복무 군인 또는 10년이상 <br />
+                                        장기복무 군인자격으로 신청한 경우
                                     </th>
                                     <td>
-                                        <input type="checkbox" id="chk5" />
-                                        <label for="chk5">해당여부</label>
+                                        <input type="checkbox" id="chk10" />
+                                        <label for="chk10">해당여부</label>
                                     </td>
-                                    <td>자녀</td>
-                                    <td>혼인관계증명서</td>
+                                    <td>본인</td>
+                                    <td>재직증명서</td>
                                     <td>
-                                        <input type="radio" id="radi5Y" name="regi5" value="" />
-                                        <label for="radi5Y">예</label>
+                                        <input type="radio" id="radi10Y" name="regi10" value="" />
+                                        <label for="radi10Y">예</label>
                                     </td>
                                     <td>
-                                        <input type="radio" id="radi5N" name="regi5" value="" />
-                                        <label for="radi5N">아니오</label>
+                                        <input type="radio" id="radi10N" name="regi10" value="" />
+                                        <label for="radi10N">아니오</label>
                                     </td>
                                 </tr>
                             </tbody>
@@ -147,8 +153,8 @@
                 </div>
 
                 <div class="btm_btns">
-                    <button class="kaki" onclick="location.href='step03-public02.html'"><span>뒤로</span></button>
-                    <button class="green" onclick="location.href='step03-supply06-2.html'"><span>다음</span></button>
+                    <button class="kaki" onclick="location.href='step03-supply04.html'"><span>뒤로</span></button>
+                    <button class="green" onclick="location.href='step03-supply04-3.html'"><span>다음</span></button>
                 </div>
             </div>
             <!-- // right_wrap -->
