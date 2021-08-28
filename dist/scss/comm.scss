@@ -172,7 +172,7 @@
         font-size: 26px;
         outline: none;
         color: $w;
-        height: 80px;
+        height: 70px;
         &.kaki {
             background: #5b5d4e;
             span::before {
@@ -819,8 +819,8 @@ input[type="checkbox"] {
     thead {
         background-color: $prim1;
         th {
-            padding: 9px 0;
-            font-size: 18px;
+            padding: 4px 0;
+            font-size: 16px;
             font-weight: 300;
             color: $w;
             vertical-align: middle;
@@ -830,7 +830,8 @@ input[type="checkbox"] {
             &:first-child {
                 border-left: none;
             }
-            &:nth-child(3) {
+            &:nth-child(3),
+            &:nth-child(5) {
                 border-bottom: 1px solid rgba($w, 0.5);
             }
             &:last-child {
@@ -849,9 +850,9 @@ input[type="checkbox"] {
         }
         th,
         td {
-            height: 80px;
+            height: 70px;
             vertical-align: middle;
-            font-size: 17px;
+            font-size: 16px;
             border-color: #bebebe;
         }
         th {

@@ -471,7 +471,7 @@ legend {
   font-size: 26px;
   outline: none;
   color: #fff;
-  height: 80px;
+  height: 70px;
 }
 
 .btm_btns button.kaki {
@@ -1179,8 +1179,8 @@ input[type="checkbox"]:checked + label {
 }
 
 .table thead th {
-  padding: 9px 0;
-  font-size: 18px;
+  padding: 4px 0;
+  font-size: 16px;
   font-weight: 300;
   color: #fff;
   vertical-align: middle;
@@ -1193,7 +1193,7 @@ input[type="checkbox"]:checked + label {
   border-left: none;
 }
 
-.table thead th:nth-child(3) {
+.table thead th:nth-child(3), .table thead th:nth-child(5) {
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
 }
 
@@ -1208,9 +1208,9 @@ input[type="checkbox"]:checked + label {
 
 .table tbody th,
 .table tbody td {
-  height: 80px;
+  height: 70px;
   vertical-align: middle;
-  font-size: 17px;
+  font-size: 16px;
   border-color: #bebebe;
 }
 

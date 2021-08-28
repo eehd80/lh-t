@@ -10,11 +10,11 @@
             href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"
         />
         <link rel="stylesheet" href="./dist/css/comm.css" />
-        <title>생애최초 특별공급 추가서류 | 사전청약</title>
+        <title>신혼희망타운 추가서류1 | 사전청약</title>
     </head>
 
     <body>
-        <div class="wrap wrap-green">
+        <div class="wrap wrap-purple h-scroll">
             <h1 class="logo">
                 <a href="index.html">
                     <img src="./images/logo.png" alt="사전청약 희망의 첫걸음" />
@@ -24,7 +24,7 @@
             <div class="right_wrap">
                 <div class="write_from">
                     <div class="q_tit">
-                        <h2 class="tit"><b>생애최초 특별공급</b> 추가서류</h2>
+                        <h2 class="tit"><b>신혼희망타운</b> 추가서류1</h2>
                     </div>
                     <form action="" method="get">
                         <table class="table table-bordered">
@@ -52,56 +52,17 @@
                             <tbody>
                                 <tr class="fst">
                                     <th scope="row" class="txt-left">
-                                        당첨자와 1년 이상 동일 등본에 등재된 <br />
-                                        직계존속을 소득산정 시 가구원수로 <br />
-                                        인정받고자 하는 경우
+                                        한부모가족으로 신청하였으나 가족관계증명서상 <br />
+                                        배우자가 있는 것으로 확인되는 경우
                                     </th>
-                                    <td>
-                                        <input type="checkbox" id="chk4" />
-                                        <label for="chk4">해당여부</label>
-                                    </td>
-                                    <td>직계존속</td>
-                                    <td>주민등록표초본</td>
-                                    <td>
-                                        <input type="radio" id="radi4Y" name="regi4" value="" />
-                                        <label for="radi4Y">예</label>
-                                    </td>
-                                    <td>
-                                        <input type="radio" id="radi4N" name="regi4" value="" />
-                                        <label for="radi4N">아니오</label>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <th scope="row" class="txt-left">
-                                        공고일 현재 혼인 중이 아닌 분이 동일 등본상<br />
-                                        만 18세 이상인 자녀를 ‘미혼인 자녀'로<br />
-                                        인정받고자 할 경우
-                                    </th>
-                                    <td>
-                                        <input type="checkbox" id="chk5" />
-                                        <label for="chk5">해당여부</label>
-                                    </td>
-                                    <td>자녀</td>
-                                    <td>혼인관계증명서</td>
-                                    <td>
-                                        <input type="radio" id="radi5Y" name="regi5" value="" />
-                                        <label for="radi5Y">예</label>
-                                    </td>
-                                    <td>
-                                        <input type="radio" id="radi5N" name="regi5" value="" />
-                                        <label for="radi5N">아니오</label>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <th scope="row" class="txt-left">생애최초 특별공급 청약자 전원</th>
                                     <td>
                                         <input type="checkbox" id="chk6" />
                                         <label for="chk6">해당여부</label>
                                     </td>
-                                    <td>본인</td>
+                                    <td>당첨자</td>
                                     <td>
-                                        소득세납부<br />
-                                        입증서류
+                                        한부모 <br />
+                                        가족증명서
                                     </td>
                                     <td>
                                         <input type="radio" id="radi6Y" name="regi6" value="" />
@@ -118,12 +79,29 @@
                 </div>
 
                 <div class="btm_btns">
-                    <button class="kaki" onclick="location.href='step03-supply06.html'"><span>뒤로</span></button>
-                    <button class="green" onclick="location.href='step03-supply06-3.html'"><span>다음</span></button>
+                    <button class="kaki" onclick="location.href='step03-marriage02.html'"><span>뒤로</span></button>
+                    <button class="purple" onclick="location.href='step03-marriage03.html'"><span>다음</span></button>
                 </div>
             </div>
             <!-- // right_wrap -->
         </div>
+
+        <!-- Modal-공공분양 서류 없을 시 -->
+        <!-- show 추가시 활성화 -->
+        <div class="modal" id="lackDocument">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <!-- Modal body -->
+                    <div class="modal-body">필요서류를 모두 준비 후 방문해 주세요</div>
+
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-close" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
